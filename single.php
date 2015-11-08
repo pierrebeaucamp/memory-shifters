@@ -25,7 +25,7 @@
                         ?>
                     </div>
                     <div class="col-md-6">
-                        <?php the_post_thumbnail('large');?>
+                        <?php the_post_thumbnail('medium');?>
                     </div>
                 </section> <?php // end article section ?>
               </article> <?php // end article ?> 
