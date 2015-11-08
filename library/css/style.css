@@ -1,4 +1,6 @@
-
+ul {
+    padding: 0;
+}
 
 .result-item {
   transition: background, 0.1s;
@@ -26,7 +28,8 @@
   line-height: 17px;
 }
 
-.result-item--platform {
+.result-item--platform,
+li.cat-item {
   -webkit-box-align: center;
   -moz-box-align: center;
   box-align: center;
