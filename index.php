@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <button type="button" id="btn_activities" class="btn btn-primary btn-lg">
-                        <span class="glyphicon glyphicon-home"></span>At home Activities
+                        <span class="glyphicon glyphicon-home"></span> At home Activities
                     </button>
                     <ul id="activity_menu" style="list-style: none">
                         <?php wp_list_categories(array(
@@ -44,7 +44,7 @@
 
                 <div class="col-sm-4">
                     <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='searchresults.html?tag=loc_toronto_activities'">
-                        <span class="glyphicon glyphicon-map-marker"></span>Toronto Activities
+                        <span class="glyphicon glyphicon-map-marker"></span> Toronto Activities
                     </button>
                 </div>
 

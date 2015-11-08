@@ -40,9 +40,9 @@ li.cat-item-all {
   -o-align-items: center;
   align-items: center;
   -ms-flex-align: center;
-  padding: 2px 4px 1px;
+  padding: 5px 8px 5x;
   color: #bbbbbb;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
   border: 2px solid rgba(187,187,187,0.5);
@@ -50,7 +50,7 @@ li.cat-item-all {
   white-space: nowrap;
   display: inline-block;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .result-item--thumbnail {
