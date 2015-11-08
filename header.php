@@ -49,7 +49,7 @@
                     </div>
 
                     <div class="col-md-2">
-                        <button type="button" class="btn submit_button" onclick="window.location.href='submit.html'">
+                        <button type="button" class="btn submit_button" onclick="window.location.href='/submit'">
                             Submit content
                         </button>
                     </div>
