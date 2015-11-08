@@ -44,23 +44,23 @@
         <div id="wrapper">
             <header class="container" itemscope itemtype="http://schema.org/WPHeader">
                 <nav class="navbar navbar-static-top">
-                    <div id="logo">
+                    <div id="logo" class="col-md-7">
                         <a href="<?php echo home_url(); ?>" rel="nofollow"><img src="/wp-content/themes/memory-shifters/library/images/logo.jpg" alt="logo" /></a>
                     </div>
 
-                    <div>
+                    <div class="col-md-2">
                         <button type="button" class="btn  btn-lg" onclick="window.location.href='submit.html'">
                             Submit content!
                         </button>
                     </div>
 
-                    <div id="userNav">
+                    <div id="userNav" class="col-md-3">
                         <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
                             <?php dynamic_sidebar( 'sidebar1' ); ?>
                         <?php else : ?>
                             <div class="no-widgets">
                                 <p><?php _e( 'This is a widget ready area. Add some and they will appear here.', 'bonestheme' );  ?></p>
-                            </div>div>
+                            </div><div>
                         <?php endif; ?>
                     </div>
                 </nav>
