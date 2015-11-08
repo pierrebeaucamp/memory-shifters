@@ -83,6 +83,7 @@ li.cat-item-all {
 
 #wrapper {
     min-height:100%;
+    position: relative;
 }
 
 #content {
