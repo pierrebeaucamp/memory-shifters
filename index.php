@@ -13,6 +13,7 @@
                 </div>
 
                 <div class="col-md-6">
+                <p> Explore some activities below</p><br/>
                 <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='/category/toronto/'">
                                         <span class="glyphicon glyphicon-map-marker"></span> Toronto Activities
                                     </button>
