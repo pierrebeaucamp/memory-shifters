@@ -49,6 +49,12 @@
                         <p class="logotext" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
                     </div>
 
+                    <div>
+                        <button type="button" class="btn  btn-lg" onclick="window.location.href='submit.html'">
+                            Submit content!
+                        </button>
+                    </div>
+
                     <div id="userNav">
                         <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
                             <?php dynamic_sidebar( 'sidebar1' ); ?>
