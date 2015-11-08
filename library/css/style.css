@@ -29,7 +29,8 @@ ul {
 }
 
 .result-item--platform,
-li.cat-item {
+li.cat-item,
+li.cat-item-all {
   -webkit-box-align: center;
   -moz-box-align: center;
   box-align: center;

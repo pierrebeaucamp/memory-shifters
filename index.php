@@ -8,7 +8,7 @@
                 <button type="button" id="btn_activities" class="btn btn-primary btn-lg">At home Activities</button>
                 <ul id="activity_menu" style="list-style: none">
                     <?php wp_list_categories(array(
-                        'show_option_all'    => '',
+                        'show_option_all'    => 'all',
                         'orderby'            => 'name',
                         'order'              => 'ASC',
                         'style'              => 'list',
