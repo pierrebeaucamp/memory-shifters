@@ -45,19 +45,44 @@
       </div>
 
       <div class="form-group">
-        <label for="category">Category</label>
-        <input type="text" id="category" class="form-control"><br/>
+        <label>Category</label><br/>
+        <input type="radio" name="category" id="event_toronto" value="event_toronto" class="form-group"
+        onclick="isEventChecked();">Toronto Event<br/>
+        <input type="radio" name="category" id="activity_music" value="activity_music" class="form-group">Music Activity<br/>
+        <input type="radio" name="category" id="activity_art" value="activity_art" class="form-group">Art Activity<br/>
+        <input type="radio" name="category" id="activity_games" value="activity_games" class="form-group">Game Activity<br/>
+        <input type="radio" name="category" id="activity_stories" value="activity_stories" class="form-group">Story Activity<br/>
+        <input type="radio" name="category" id="activity_picture_sharing" value="activity_picture_sharing" class="form-group">Picture Sharing Activity<br/>
+        <!--<input type="text" id="category" class="form-control"><br/>-->
+      </div>
+
+      <div class="form-group">
+        <label for="event_date">Date of event (if applicable)</label>
+        <input type="date" id="event_date" class="form-control">
+        </label>
       </div>
 
       <div class="form-group">
         <label for="description">Description</label>
-        <textarea class="form-control" id="description"></textarea>
+        <textarea class="form-control" id="description" rows="7"></textarea>
       </div>
 
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit"class="btn btn-primary btn-lg">
     </form>
   </div>
 </div>
 
 </body>
+
+<script>
+  // Function to enable fields if form fields are checked
+  function isEventChecked() {
+    if (document.getElementById('event_toronto').checked) {
+      document.getElementById('event_date').style.display = 'block';
+    } else {
+      document.getElementById('event_date').style.display = 'none';
+    }
+  }
+</script>
+
 </html>
