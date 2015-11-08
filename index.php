@@ -19,7 +19,14 @@
                                                         <span class="glyphicon glyphicon-home"></span> At home Activities
                                                     </button>
 
-                                                    <ul id="activity_menu" style="list-style: none">
+
+
+                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='/category/toronto/'">
+                                        <span class="glyphicon glyphicon-map-marker"></span> Toronto Activities
+                                    </button>
+
+                            <ul id="activity_menu" style="list-style: none">
                                                                             <?php wp_list_categories(array(
                                                                                 'show_option_all'    => '',
                                                                                 'orderby'            => 'name',
@@ -50,12 +57,6 @@
                                                                                 <a href="/">all</a>
                                                                             </li>
                                                                         </ul>
-
-                                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='/category/toronto/'">
-                                        <span class="glyphicon glyphicon-map-marker"></span> Toronto Activities
-                                    </button>
-
 
 
 
