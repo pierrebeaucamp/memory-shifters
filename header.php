@@ -41,21 +41,22 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-        <header class="container" itemscope itemtype="http://schema.org/WPHeader">
-            <nav class="navbar navbar-static-top">
-                <div id="logo">
-                    <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-                    <p class="logotext" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
-                </div>
+        <div id="wrapper">
+            <header class="container" itemscope itemtype="http://schema.org/WPHeader">
+                <nav class="navbar navbar-static-top">
+                    <div id="logo">
+                        <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
+                        <p class="logotext" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+                    </div>
 
-                <div id="userNav">
-                    <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
-                        <?php dynamic_sidebar( 'sidebar1' ); ?>
-                    <?php else : ?>
-                        <div class="no-widgets">
-                            <p><?php _e( 'This is a widget ready area. Add some and they will appear here.', 'bonestheme' );  ?></p>
-                        </div>div>
-                    <?php endif; ?>
-                </div>
-            </nav>
-        </header>
+                    <div id="userNav">
+                        <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
+                            <?php dynamic_sidebar( 'sidebar1' ); ?>
+                        <?php else : ?>
+                            <div class="no-widgets">
+                                <p><?php _e( 'This is a widget ready area. Add some and they will appear here.', 'bonestheme' );  ?></p>
+                            </div>div>
+                        <?php endif; ?>
+                    </div>
+                </nav>
+            </header>
