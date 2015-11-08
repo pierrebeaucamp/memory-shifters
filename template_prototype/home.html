@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dementia Connect</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+  <script>
+    $(document).ready(function(){
+      $("#activity_menu").hide();
+      $("#btn_activities").click(function(){
+        $("#activity_menu").show();
+      });
+
+    });
+  </script>
+</head>
+<body>
+
+
+  <div class="container">
+    <nav class="navbar  navbar-static-top">
+
+      <div id="logo">
+        <div class="logotext" onclick="window.location.href='home.html'">Dementia Connect</div>
+      </div>
+
+    <div id="userNav">
+      <form action="searchresults.html" method="GET" id="searchForm">
+        <input type="text" name="query" placeholder="Search" id="searchInput"
+               onblur="this.value = this.value || this.defaultValue;this.className='';"
+               onfocus="this.value='';this.className='focus';">
+        <!--<input type="submit" value="Search" id="searchSubmit">-->
+      </form>
+    </div>
+    </nav>
+  </div>
+
+
+
+<div class="jumbotron">
+  <div class="container">
+    <p>Explore arts-based methods to interact with people with Dementia. <a href="#">Read more</a></p>
+    <div class="row">
+      <div class="col-sm-4"><button type="button" id="btn_activities" class="btn btn-primary btn-lg">
+        At home Activities
+        </button>
+        <div id="activity_menu" >
+          <div class="result-item--platform"><a href="searchresults.html?tag=music">Music</a> </div>
+          <div class="result-item--platform"><a href="searchresults.html?tag=improv">Improv</a></div>
+          <div class="result-item--platform"><a href="searchresults.html?tag=art">Art</a></div>
+          <div class="result-item--platform"><a href="searchresults.html?tag=games">Games</a></div>
+          <div class="result-item--platform"><a href="searchresults.html?tag=stories">Stories</a></div>
+          <div class="result-item--platform"><a href="searchresults.html?tag=all_activities">ALL</a></div>
+        </div>
+      </div>
+
+      <div class="col-sm-4"><button type="button" class="btn btn-primary btn-lg"
+                                    onclick="window.location.href='searchresults.html?tag=loc_toronto_activities'">
+        Toronto Activities
+      </button>
+      </div>
+
+      <div class="col-sm-4"><button type="button" class="btn  btn-lg"
+                                    onclick="window.location.href='submit.html'">
+        Submit content!
+      </button>
+      </div>
+    </div>
+
+  </div>
+  <!-- // HEADER CONTAINER -->
+
+</div>
+
+<div class="container">
+
+  <p>Some popular posts or comments here...</p>
+  <br/>
+  <br/><br/><br/><br/><br/>
+
+
+
+
+  <!--<h2>Results</h2>-->
+
+  <!--<div class="row">-->
+    <!--<div class="result-item">-->
+      <!--<div class="result-item&#45;&#45;thumbnail">-->
+        <!--pic-->
+      <!--</div>-->
+      <!--<div class="result-item-text">-->
+        <!--<a class="post-item-text-name" href="#">Sample Search result</a>-->
+        <!--<div class="post-item-text-tagline">Sampe tagline</div>-->
+        <!--<div class="result-item&#45;&#45;platform">IPHONE</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<div class="row">-->
+    <!--<div class="result-item">-->
+      <!--<div class="result-item&#45;&#45;thumbnail">-->
+        <!--pic-->
+      <!--</div>-->
+      <!--<div class="result-item-text">-->
+        <!--<a class="post-item-text-name" href="#">Sample Search result</a>-->
+        <!--<div class="post-item-text-tagline">Sampe tagline</div>-->
+        <!--<div class="result-item&#45;&#45;platform">IPHONE</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div style="text-align: center">
+      Made at DementiaHack2015<br/>
+      <a href="#team">Our Team</a>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

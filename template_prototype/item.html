@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Item</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+</head>
+<body>
+<div class="container">
+  <nav class="navbar  navbar-static-top">
+
+    <div id="logo">
+      <h1 onclick="window.location.href='home.html'">Dementia Connect</h1>
+    </div>
+
+    <div id="userNav">
+      <form action="searchresults.html" method="GET" id="searchForm">
+        <input type="text" name="query" placeholder="Search" id="searchInput"
+               onblur="this.value = this.value || this.defaultValue;this.className='';"
+               onfocus="this.value='';this.className='focus';">
+        <!--<input type="submit" value="Search" id="searchSubmit">-->
+      </form>
+    </div>
+  </nav>
+</div>
+
+<div class="container">
+  <div class="row">
+
+
+      <h1>In the Moment Art Tour</h1>
+
+    <img src="img/5star_blk_lg.jpg" width="150px;" align="right" style="opacity: 0.6" />
+
+    <div>
+      <strong>URL:</strong><a href="http://www.ago.net/art-in-the-moment-tours">http://www.ago.net/art-in-the-moment-tours</a>
+    </div>
+    <div>
+      <strong>Type:</strong>
+      <div class="result-item--platform"><a href="searchresults.html">EVENT</a> </div>
+    </div>
+    <div>
+      <strong>Date:</strong>
+      November 17, 2015
+    </div>
+    <div>
+      <strong>Location:</strong>
+      <a target="_blank" href="https://www.google.ca/maps/place/Art+Gallery+of+Ontario/@43.6536105,-79.394701,17z/data=!3m1!4b1!4m2!3m1!1s0x882b34c5ed5319bd:0xda277755ede046af">100 Dundas St. W</a>
+    </div>
+    <div>
+      <strong>Description</strong><br/>
+      A Tour of the AGO.....
+
+      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+      Section 1.10.33 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+
+      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+    </div>
+
+
+    <div>
+      <h4>Comments</h4>
+
+      <textarea rows="4" cols="50" placeholder="Enter a comment..."></textarea>
+
+      <div>
+        COMMENT ABOUT THING
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

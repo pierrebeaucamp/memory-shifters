@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+</head>
+<body>
+
+<div class="container">
+  <nav class="navbar  navbar-static-top">
+
+    <div id="logo">
+      <h1 onclick="window.location.href='home.html'">Dementia Connect</h1>
+    </div>
+
+    <div id="userNav">
+      <form action="searchresults.html" method="GET" id="searchForm">
+        <input type="text" name="query" placeholder="Search" id="searchInput"
+               onblur="this.value = this.value || this.defaultValue;this.className='';"
+               onfocus="this.value='';this.className='focus';">
+        <!--<input type="submit" value="Search" id="searchSubmit">-->
+      </form>
+    </div>
+  </nav>
+</div>
+
+
+
+
+<div class="container">
+
+  <span><h1>Results for "improv"</h1></span>
+
+  <br/>
+  <br/>
+  <div class="row">
+    <div class="result-item">
+      <div class="result-item--thumbnail">
+
+      </div>
+      <div class="result-item-text">
+        <a class="post-item-text-name" href="item.html">Improvisational puppets</a>
+        <div class="post-item-text-tagline">You can do this activity with using puppets you can make at home. It seems
+        to work well for...</div>
+        <!--<div class="result-item&#45;&#45;platform">IPHONE</div>-->
+      </div>
+  </div>
+    </div>
+
+    <div class="row">
+      <div class="result-item">
+        <div class="result-item--thumbnail">
+
+        </div>
+        <div class="result-item-text">
+          <a class="post-item-text-name" href="item.html">Best ways to go along with the situations</a>
+          <div class="post-item-text-tagline">It seems that this works really well and does this...</div>
+          <!--<div class="result-item&#45;&#45;platform">IPHONE</div>-->
+        </div>
+      </div>
+    </div>
+
+</div>
+
+</body>
+</html>

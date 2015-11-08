@@ -1,0 +1,78 @@
+
+
+.result-item {
+  transition: background, 0.1s;
+  transition-property: background, initial;
+  transition-duration: initial, 0.1s;
+  transition-timing-function: initial, initial;
+  transition-delay: initial, initial;
+  font-size: 18px;
+  min-height: 62px;
+  line-height: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  clear: both;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.result-item-text {
+  transition: background, 0.1s;
+  background: white;
+  font-size: 18px;
+  min-height: 62px;
+  line-height: 17px;
+}
+
+.result-item--platform {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  padding: 2px 4px 1px;
+  color: #bbbbbb;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid rgba(187,187,187,0.5);
+  border-radius: 4px;
+  white-space: nowrap;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.result-item--thumbnail {
+  min-width: 50px;
+}
+
+#userNav {
+  float: right;
+  margin-top: 35px;
+}
+
+#userNav #searchForm {
+  background-color: rgba(0,0,0,.2);
+  border-radius: 3px;
+  position: relative;
+  top: 6px;
+}
+
+#logo {
+  float: left;
+  /*margin: 26px 0 0;*/
+}
+
+.logotext {
+  font-size: 30pt;
+  font-family: Calibri;
+  color: #014c8c;
+  margin-top: 25px;
+}
