@@ -2,6 +2,14 @@ ul {
     padding: 0;
 }
 
+.submit_button{
+  margin-top: 75px;
+}
+
+.search_div {
+  margin-top:80px;
+}
+
 .result-item {
   transition: background, 0.1s;
   transition-property: background, initial;
