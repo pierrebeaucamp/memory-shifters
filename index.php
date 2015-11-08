@@ -53,11 +53,11 @@
                         </div>
                 </div>
 
-                <div class="col-sm-4">
+
                     <button type="button" class="btn  btn-lg" onclick="window.location.href='submit.html'">
                         Submit content!
                     </button>
-                </div>
+                
             </div>
         </div>
     </div>
