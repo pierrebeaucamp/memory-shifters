@@ -3,7 +3,7 @@
 <div id="content">
     <div class="jumbotron">
         <div class="container">
-            <p>Explore arts-based methods to interact with people with Dementia. <a href="#">Read more</a></p>
+            <p>Explore arts-based methods to interact with people with Dementia. <a href="/manifesto/">Read more</a></p>
             <div class="row">
                 <div class="col-sm-4">
                     <button type="button" id="btn_activities" class="btn btn-primary btn-lg">
@@ -22,7 +22,7 @@
                             'feed'               => '',
                             'feed_type'          => '',
                             'feed_image'         => '',
-                            'exclude'            => '1',
+                            'exclude'            => '1,9',
                             'exclude_tree'       => '',
                             'include'            => '',
                             'hierarchical'       => 0,
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="col-sm-4">
-                    <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='searchresults.html?tag=loc_toronto_activities'">
+                    <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='/category/toronto/'">
                         <span class="glyphicon glyphicon-map-marker"></span> Toronto Activities
                     </button>
                 </div>
