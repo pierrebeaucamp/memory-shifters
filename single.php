@@ -18,10 +18,15 @@
                 </header> <?php // end article header ?>
 
                 <section itemprop="articleBody">
-                    <?php
-                        // the content (pretty self explanatory huh)
-                        the_content();
-                    ?>
+                    <div class="col-md-6">
+                        <?php
+                            // the content (pretty self explanatory huh)
+                            the_content();
+                        ?>
+                    </div>
+                    <div class="col-md-6">
+                        <?php the_post_thumbnail();?>
+                    </div>
                 </section> <?php // end article section ?>
               </article> <?php // end article ?> 
         <?php endwhile; ?>
