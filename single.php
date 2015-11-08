@@ -4,7 +4,16 @@
            <article id="post-<?php the_ID(); ?>" <?php post_class('row'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
                 <header>
                     <h1 itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
-                    <!-- TODO -->
+                    <?php if (get_field('url')) : ?>
+                        <div>
+                            <strong>URL:</strong><a href="<?php the_field('url'); ?>"><?php the_field('url'); ?></a>
+                        </div>
+                    <?php endif; if (get_field('date')) : ?>
+                        <div>
+                            <strong>Date:</strong><a href="<?php the_field('date'); ?>"><?php the_field('date'); ?></a>
+                        </div>
+                    <?php endif; ?>
+                    <strong>Description</strong>
                 </header> <?php // end article header ?>
 
                 <section itemprop="articleBody">
