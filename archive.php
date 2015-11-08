@@ -10,9 +10,6 @@
     <div class="row">
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <div class="result-item">
-                <div class="result-item--thumbnail">
-                     <?php the_post_thumbnail('thumbnail');?>
-                </div>
                 <article id="post-<?php the_ID(); ?>" <?php post_class( 'result-item-text' ); ?> role="article">
                     <header>
                         <a class="post-item-text-name" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
