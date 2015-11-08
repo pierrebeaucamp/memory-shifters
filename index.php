@@ -7,8 +7,34 @@
             <div class="col-sm-4">
                 <button type="button" id="btn_activities" class="btn btn-primary btn-lg">At home Activities</button>
                 <div id="activity_menu">
-                    <div class="result-item--platform"><a href="searchresults.html?tag=music">Music</a></div>
-                    <!-- TODO -->
+                    <ul class="result-item--platform" style="list-style: none">
+                        <?php wp_list_categories(array(
+                            'show_option_all'    => '',
+                            'orderby'            => 'name',
+                            'order'              => 'ASC',
+                            'style'              => 'list',
+                            'show_count'         => 0,
+                            'hide_empty'         => 0,
+                            'use_desc_for_title' => 0,
+                            'child_of'           => 0,
+                            'feed'               => '',
+                            'feed_type'          => '',
+                            'feed_image'         => '',
+                            'exclude'            => '1',
+                            'exclude_tree'       => '',
+                            'include'            => '',
+                            'hierarchical'       => 0,
+                            'title_li'           => __( '' ),
+                            'show_option_none'   => __( '' ),
+                            'number'             => null,
+                            'echo'               => 1,
+                            'depth'              => 1,
+                            'current_category'   => 0,
+                            'pad_counts'         => 0,
+                            'taxonomy'           => 'category',
+                            'walker'             => null
+                        )); ?>
+                    </ul>
                 </div>
             </div>
 
