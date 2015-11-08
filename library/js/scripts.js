@@ -109,12 +109,8 @@ function loadGravatars() {
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-  loadGravatars();
-
-
+    $("#activity_menu").hide();
+    $("#btn_activities").click(function(){
+        $("#activity_menu").show();
+    });
 }); /* end of as page load scripts */
