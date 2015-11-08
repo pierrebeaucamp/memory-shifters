@@ -6,7 +6,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <p>Explore arts-based methods to interact with people with Dementia.</p>
-                <p>Further info...</p>
+                Here is a place where you can find Dementia-friendly activities and ideas to interact with your loved ones.
+                                There are so many ways you can enrich and explore your lives together in a fun and meaningful way.<br><br>
+                                We have scoured the internet and found you positive, arts-based ways to connect.<br><br>
+                                Please share your comments with the community so we can learn from each other.
                 </div>
 
                 <div class="col-md-6">
