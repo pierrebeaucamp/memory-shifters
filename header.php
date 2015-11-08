@@ -54,7 +54,7 @@
                         </button>
                     </div>
 
-                    <div id="userNav" class="col-md-4 search_div">
+                    <div id="userNav" class="col-md-4 search_div" style="margin-top: 80px;">
                         <?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
                             <?php dynamic_sidebar( 'sidebar1' ); ?>
                         <?php else : ?>
