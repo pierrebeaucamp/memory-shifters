@@ -4,6 +4,7 @@
            <article id="post-<?php the_ID(); ?>" <?php post_class('row'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
                 <header>
                     <h1 itemprop="headline" rel="bookmark"><?php the_title(); ?></h1>
+                    <img src="/wp-content/themes/memory-shifters/library/images/5star_blk_lg.jpg" width="150px;" align="right" style="opacity: 0.6" />
                     <?php if (get_field('url')) : ?>
                         <div>
                             <strong>URL: </strong><a href="<?php the_field('url'); ?>"><?php the_field('url'); ?></a>
@@ -13,7 +14,7 @@
                             <strong>Date: </strong><a href="<?php the_field('date'); ?>"><?php the_field('date'); ?></a>
                         </div>
                     <?php endif; ?>
-                    <strong>Description</strong>
+                    <strong>Description: </strong>
                 </header> <?php // end article header ?>
 
                 <section itemprop="articleBody">
