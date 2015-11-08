@@ -1,3 +1,4 @@
+            <!--
             <div id="footer">
                 <footer class="container" itemscope itemtype="http://schema.org/WPFooter">
                     <div class="row">
@@ -8,6 +9,7 @@
                     </div>
                 </footer>
             </div>
+            -->
         </div>
 		<?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
