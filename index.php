@@ -53,9 +53,7 @@
                                                                                 'taxonomy'           => 'category',
                                                                                 'walker'             => null
                                                                             )); ?>
-                                                                            <li class="cat-item-all">
-                                                                                <a href="/">all</a>
-                                                                            </li>
+                                                                            
                                                                         </ul>
 
 
